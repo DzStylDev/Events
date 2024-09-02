@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img {
+    height: 80px;
+}
+.container {
+    margin: 0 auto;
+    width: 45%;
+}
+
+h1 {    
+    font-size: 1.5em;
+    font-weight: 100;
+}
+.container-icons {
+    align-items: center;
+    margin: 0 auto;
+    width: 45%;
+}
+.info-container {
+    padding: 0.2em;
+    line-height: 1em;
+}
+
+.container__navbar {
+    background-color: red;
+    padding: .6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .6em;
+}
+
+.header .icon_user {
+    font-size: 1.5em;
+    cursor: pointer;
+
+}
+h6 {
+    margin-top: 1em;
+    font-size: .9em;
+}
+
+.search {
+    display: flex;
+}
+
+.search .icon_search {
+    padding: .4em;
+    font-size: 1.2em;
+    color: mintcream;
+    background-color: rgb(64, 64, 194);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.search .icon_search:hover {
+    cursor: pointer;
+}
+
+.search input {
+    outline: none;
+    border: none;
+    padding: .5em;
+    background-color: mintcream;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: monospace, sans-serif;
+    font-weight: 700;
+}
+
+.search input:focus {
+    color: rgb(64, 64, 194);
+}
+
+.icon_navbar {
+    color: mintcream;
+    cursor: pointer;
+}
+
+.children_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    padding: .6em;
+}
+
+.body-options-container {
+    display: flex;
+    gap: 1em;
+}
+
+.body-options-container img {
+    width: 45%;
+}
+img.mediumImg {
+    width: 15%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+img.smallImg {
+    width: 16%;
+    height: auto;
+}
+
+.savoirplus {
+    padding: .6em;
+    display: flex;
+    justify-content: end;
+}
+.savoirplusSmallButton {
+    padding: 0.6em;
+    display: flex;
+    justify-content: end;
+    width: 81%;
+}
+.savoirplusSmallButton button {
+    font-weight: 600;
+    background-color: mintcream;
+    padding: 0.6em;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    outline: none;
+    transition: .3s all ease-in-out;
+    width: 42%;
+    font-size: 0.9em;
+    transition: all .3s ease-in-out;
+}
+
+.savoirplusSmallButton button:hover {
+    background-color: black;
+    color: mintcream;
+    cursor: pointer;
+}
+.savoirplus button {
+    font-weight: 600;
+    background-color: mintcream;
+    padding: 0.6em;
+    color: black;
+    border: 1px solid black;
+    outline: none;
+    transition: .3s all ease-in-out;
+    width: 20%;
+    font-size: .9em;
+}
+
+.savoirplus button:hover {
+    background-color: black;
+    cursor: pointer;
+    color: mintcream;
+}
+
+.icons_social {
+    text-align: center;
+}
+
+.container_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+.icons_s {
+    color: inherit;
+}
+
+.grpIcon_connection {
+    display: flex;
+    width: 7%;
+    justify-content: space-around;
+}
+.sorties-container {
+    display: flex;
+    align-items: center;
+}
+.sorties-options-container {
+    display: flex;
+}
+.contenu-options {
+    
+}
+.users-container {
+    margin-top: 1em;
+    padding: 0.2em;
+    border: none;
+}
+.pseudo {
+    font-family: monospace;
+    line-height: 1em;
+}
+.user {
+    align-items: center;
+    gap: .6em;
+    margin-bottom: .5em;
+    padding: 0.4em;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.image-container {
+    /* width: 39%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user img {
+    border-radius: 100%;
+    background: grey;
+}
+.search-filtre-container {
+    padding: .9em;
+}
+.user:hover {
+    background-color: rgb(170, 170, 170);
+}
+.user:hover .pseudo {
+    color: mintcream;
+}
+.lien_users {
+    text-decoration: none;
+}
